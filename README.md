@@ -13,6 +13,9 @@ For a helpful refresher on HMMs and the Forward and Viterbi Algorithms you can c
 [here](https://towardsdatascience.com/markov-and-hidden-markov-model-3eec42298d75), and [here](https://pieriantraining.com/viterbi-algorithm-implementation-in-python-a-practical-guide/). 
 
 
+## Methods
+* `forward(input_observation_states)`: uses the Forward Algorithm to return the likelihood of observing `input_observation_states` given the prior, transition, and emission probabilities initialized in `HiddenMarkovModel`
+* `viterbi(decode_observation_states)`: uses the Viterbi algorithm to return the most likely sequence of hidden states that generated the sequence provided by `decode_observation_states`, given the prior, transition, and emission probabilities initialized in `HiddenMarkovModel`
 
 
 

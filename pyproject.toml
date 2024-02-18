@@ -7,7 +7,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "hmm"
-authors = [{name = "Shu Zhang", email = "shu.zhang2@ucsf.edu"}]
+authors = [{name = "Angelica Lam", email = "angelica.lam@ucsf.edu"}]
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
@@ -17,4 +17,4 @@ dependencies = [
 ]
 
 [project.urls]
-Home = "https://github.com/BMI203-2024/HW6-HMM"
+Home = "https://github.com/angelicalam/BMI203-HW6-HMM.git"
